@@ -5,6 +5,14 @@
     *{
         padding: 0;
         margin: 0;
+        font-family: 'Segoe UI';
+    }
+    ul{
+        list-style-type:symbols('✔️');
+    
+    }
+    li{
+        margin-bottom: 10px;
     }
         #navbar{
             
@@ -64,8 +72,8 @@
             
         }
         .Image-container{
-            width: 800px;
-            height: 500px;
+            width: 700px;
+            height: 400px;
             background-color: #C4DEFD;
         }
        .Element{
@@ -76,9 +84,105 @@
         justify-content: space-evenly;
         color: white;
        }
+       .Element2{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 300px;
+        justify-content: space-evenly;
+        color: black;}
+
         .Heading{
-            font-weight: 700;
-        }    
+            font-weight: 900;
+            font-size:large;
+        }
+        
+        #Project-Managment{
+            width: 100%;
+            height: 700px;
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        } 
+        #Page3{
+            width: 100%;
+            height: 700px;
+            background-color: #043873;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        } 
+        .Element3{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 300px;
+        justify-content: space-evenly;
+        color: white;
+       }   
+
+       #Pricing{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+         height: 750px;
+        background-color: #ffffff;   
+       }
+       .P-Heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       padding-top: 25px;
+        height: 200px;
+        background-color:white;
+       }
+         .Price-list{
+          width: 1000px;
+          height: 600px;
+          background-color: #ffffff;
+          display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+         }
+         .Ph1{
+            font-weight: 900;
+            font-size: xx-large;
+            
+         }
+            .block{
+                width: 290px;
+                height: 520px;
+                border: 1px solid #FFE492;
+                border-radius: 10px;
+
+            }
+          .block:hover{
+            transform: scale(1.1);
+            color: white;
+            background-color: #043873;
+            z-index: 10;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+          }
+            .Price{
+                display: flex;
+                flex-direction: column;
+                
+                justify-content: space-evenly;
+                height: 100%;
+               margin-left: 25px; 
+            }
+    #Price-Page{
+        justify-content: space-evenly;
+        width: 100%;
+        height: 900px;
+        background-color: #ffffff;
+    }
     </style>
 </head>
 <body>
@@ -109,6 +213,96 @@
         <div class="Image-container"></div>
     </div>
 </div>
+
+<div id="Project-Managment">
+    <div id="Hero-section">
+        <div class="Element2">
+            <div class="Heading">
+                <h1>Project<br>Managment</h1>   
+            </div> 
+            <p>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p> 
+            <a id="TWF">Get Started</a>
+        </div>
+        <div class="Image-container"></div>
+    </div>
+</div>
     
+
+<div id="Page3">
+    <div id="Hero-section">
+        <div class="Element3">
+            <div class="Heading">
+                <h1>Use as Extension</h1>   
+            </div> 
+            <p>Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes.
+                </p> 
+            <a id="TWF">Let's Go</a>
+        </div>
+        <div class="Image-container"></div>
+    </div>
+</div>
+ 
+<div id="Price-Page">
+      <div id="Pricing">
+    <div class="P-Heading">
+        <h1 class="Ph1">Choose Your Plan</h1>
+        <p>Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you.</p>
+    </div>
+
+<div class="Price-list">
+    <div class="block">
+        <div class="Price">
+            <p>Free</p>
+            <h1>$0</h1>
+            <p>Capture ideas and find them quickly</p>
+            <ul>
+                <li>Sync unlimited devices</li>
+                <li>10 GB monthly uploads</li>
+                <li>200 MB max. note size</li>
+                <li>Customize Home dashboard and access extra widgets</li>
+                <li>Connect primary Google Calendar account</li>
+                <li>Add due dates, reminders, and notifications to your tasks</li>
+                 
+            </ul>
+             <a id="TWF">Get Started</a>
+        </div>
+    </div>
+    <div class="block">
+        <div class="Price">
+            <p>Personal<p>
+            <h1>$11.99</h1>
+            <p>Capture ideas and find them quickly</p>
+            <ul>
+                <li>Sync unlimited devices</li>
+                <li>10 GB monthly uploads</li>
+                <li>200 MB max. note size</li>
+                <li>Customize Home dashboard and access extra widgets</li>
+                <li>Connect primary Google Calendar account</li>
+                <li>Add due dates, reminders, and notifications to your tasks</li>
+                
+            </ul>
+              <a id="TWF">Get Started</a>
+        </div>
+    </div>
+    <div class="block">
+        <div class="Price">
+            <p>Organization</p>
+            <h1>$49.99</h1>
+            <p>Capture ideas and find them quickly</p>
+            <ul>
+                <li>Sync unlimited devices</li>
+                <li>10 GB monthly uploads</li>
+                <li>200 MB max. note size</li>
+                <li>Customize Home dashboard and access extra widgets</li>
+                <li>Connect primary Google Calendar account</li>
+                <li>Add due dates, reminders, and notifications to your tasks</li>
+            </ul>
+             <a id="TWF">Get Started</a>
+        </div>
+    </div>
+</div>
+</div>
+    
+
 </body>
 </html>

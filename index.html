@@ -23,6 +23,7 @@
             background-color: #043873;
             
         }
+        
         a{
             text-decoration: none;
             color: white;
@@ -220,19 +221,19 @@
     }
 
     .images-logo{
-        border: 2px solid black;
+        
         width: 150px;
         height: 100px;
-        background-color: #9bbbc9;
+        
     }
 
     #img-blocks{
         height: 250px;
         background-color:white;
         display: flex;
-        justify-content:center;
+        justify-content:space-evenly;
         align-items: center;
-        gap: 80px;
+        
     }
     #Tetinomial{
         width: 100%;
@@ -280,6 +281,10 @@
     height: 30px;
     background-color:#ffffff; 
 }
+    }
+    .L-heading{
+        font-weight: 700;
+            font-size:42px;
     }
    h1{
     font-size: 20px;
@@ -329,12 +334,19 @@
     height: 30px;
     background-color:#043873; 
 }
+.logo{
+    display: flex;
+    height: 10px;
+    width: 30px;
+    gap: 4px;
+}
     </style>
 </head>
 <body>
     <div id="navbar">
-        <div class="logo"> 
-           <img src="C:\Users\siddh\OneDrive\Desktop\Project1\Images\whitepace.png" alt="Logo">      
+        <div class="logo">
+            <img src="Images\Logo Icon.png" alt="" style="height: 30px; width: 30px;"> 
+           <img src="Images\whitepace.png" alt="Logo" style="height: 30px; width: 130px;">      
         </div>
         <div class="menu">
             <a href="">Products</a>
@@ -455,10 +467,10 @@
 <div id="Sponsors">
   <div class="S-Heading">Our sponsors</div>
   <div id="img-blocks">
-    <div class="images-logo"><img src="C:\Users\siddh\OneDrive\Desktop\Project1\Images\Group.png" alt="img"></div>
-    <div class="images-logo"></div>
-    <div class="images-logo"></div>
-    <div class="images-logo"></div>
+    <div class="images-logo"><img src="Images\apple-black-logo.png" alt="img"></div>
+    <div class="images-logo" style="display: flex;"><img src="Images\Micro.png" alt=""style="width: 60px;height: 60px;"><div class="L-heading">Microsoft</div></div>
+    <div class="images-logo" style="display: flex;"><img src="Images\slack.png" alt="" style="height: 60px;width: 60px;"><div class="L-heading">Slack</div></div>
+    <div class="images-logo"><img src="Images\Google.png" alt="" style="width: 200px;height: 90px;"></div>
    </div>
 </div>
 
@@ -478,7 +490,7 @@
             </div>
             <p>____________________________________</p>
             <div class="Name-box">
-                <div class="Profile-img"></div>
+                <div class="Profile-img" ,style="background-image:Images\Pro1.png;"></div>
                 <div>
                     <h1>Oberon Shaw, MCH</h1>
                     <p>Head of Talent Acquisition, North America</p>
@@ -527,11 +539,16 @@
 <div id="Footer">
     <div id="Footer-Content">
         <div class="Footer-box">
-            <div class="logo"> 
-                <img src="C:\Users\siddh\OneDrive\Desktop\Project1\Images\whitepace.png" alt="Logo">      
-            </div>
-            <p>whitepace was created for the new ways we live and work. We make a better workspace around the world</p>
-        </div>
+           <div class="logo" style="margin-bottom: 10px;">
+              <img src="Images\Logo Icon.png" alt="" style="height: 30px; width: 30px;"> 
+              <img src="Images\whitepace.png" alt="Logo" style="height: 30px; width: 130px;">      
+           </div>
+            <p>
+               whitepace was created for the new ways we live and work. We make a better workspace around the world
+            </p>
+           
+         </div>
+        
          <div class="Footer-box">
             <h3>Product</h3>
             <ul>

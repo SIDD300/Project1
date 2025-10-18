@@ -9,7 +9,7 @@
     }
     ul{
         list-style-type:symbols('✔️');
-    
+        font-size: small;
     }
     li{
         margin-bottom: 10px;
@@ -66,13 +66,13 @@
         }
         #Hero-section{
             display: flex;
-            
+            gap: 25px;
             justify-content: center;
             align-items: center;
             
         }
         .Image-container{
-            width: 700px;
+            width: 600px;
             height: 400px;
             background-color: #C4DEFD;
         }
@@ -93,8 +93,12 @@
         color: black;}
 
         .Heading{
-            font-weight: 900;
-            font-size:large;
+            font-weight: 700;
+            font-size:42px;
+            text-decoration: underline;
+            text-decoration-color: #f9dd94; 
+            text-decoration-thickness: 4px;
+            text-underline-offset: 2px; 
         }
         
         #Project-Managment{
@@ -150,13 +154,13 @@
 
          }
          .Ph1{
-            font-weight: 900;
-            font-size: xx-large;
+            font-weight: 800;
+            font-size: 45px;
             
          }
             .block{
-                width: 290px;
-                height: 520px;
+                width: 270px;
+                height: 500px;
                 border: 1px solid #FFE492;
                 border-radius: 10px;
 
@@ -167,7 +171,7 @@
             background-color: #043873;
             z-index: 10;
             cursor: pointer;
-            transition: all 0.3s ease-in-out;
+            transition: all 0.4s ease-in-out;
           }
             .Price{
                 display: flex;
@@ -180,15 +184,155 @@
     #Price-Page{
         justify-content: space-evenly;
         width: 100%;
-        height: 900px;
+        height: 800px;
         background-color: #ffffff;
     }
+    .P-Title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #Pricing{
+        padding-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 805px;
+    }
+    .S-Heading{
+        font-weight: 700;
+        font-size: 45px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        text-decoration: underline;
+            text-decoration-color: #f9dd94; 
+            text-decoration-thickness: 4px;
+            text-underline-offset: 2px;
+    }
+    
+    #Sponsors{
+        width: 100%;
+        height: 400px;
+        background-color: #ffffff;
+        justify-content: space-between;
+    }
+
+    .images-logo{
+        width: 150px;
+        height: 80px;
+        background-color: #d7a12c;
+    }
+
+    #img-blocks{
+        height: 250px;
+        background-color:white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    #Tetinomial{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+
+    }
+    .Content{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 1200px;
+        height: 400px;
+    }
+    .box{
+        height: 400px;
+        width: 350px;
+        background-color: white;
+       box-shadow: 0 2px 6px 0 rgba(117, 112, 112, 0.19), 0 3px 10px 0 rgba(117, 112, 112, 0.19);
+       border-radius: 10px;
+       display: flex;
+         flex-direction: column;
+         gap: 20px;
+            justify-content: center;
+
+            
+    }
+    .Profile-img{
+        width: 60px;
+        height: 60px;
+        background-color: #e88d03;
+        border-radius: 50%;
+    }
+    .box:hover{
+        transform: scale(1.03);
+        cursor: pointer;
+        background-color: #4F9CF9;
+        transition: all 0.4s ease-in-out;
+        .T-box{
+    width: 30px;
+    height: 30px;
+    background-color:#ffffff; 
+}
+    }
+   h1{
+    font-size: 20px;
+   }
+   .Name-box{
+    display: flex;
+    padding: 0 20px 0 20px;
+    gap: 8px;
+    
+   }
+   .comment{
+    padding: 0 20px 0 20px;
+    
+   }
+
+   #Footer{
+    width: 100%;
+    height: 400px;
+    background-color: #043873;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+#Footer-Content{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Footer-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    width: 200px;
+}
+
+.T-block{
+    padding-left: 15px;
+    display: flex;
+    align-self: flex-start;
+    gap: 9px;
+}
+.T-box{
+    width: 30px;
+    height: 30px;
+    background-color:#043873; 
+}
     </style>
 </head>
 <body>
     <div id="navbar">
         <div class="logo"> 
-           <img src="C:\Users\siddh\OneDrive\Desktop\Figma\Images\whitepace.png" alt="">      
+           <img src="C:\Users\siddh\OneDrive\Desktop\Project1\Images\whitepace.png" alt="Logo">      
         </div>
         <div class="menu">
             <a href="">Products</a>
@@ -205,7 +349,7 @@
     <div id="Hero-section">
         <div class="Element">
             <div class="Heading">
-                <h1>Get More Done With Whitepace</h1>   
+                Get More Done With Whitepace   
             </div> 
             <p>Preject manegment software that enables your teams to collaborate,plane,analyse and manage every day task</p> 
             <a id="TWF">Try WhiteSpace Free</a>
@@ -218,7 +362,7 @@
     <div id="Hero-section">
         <div class="Element2">
             <div class="Heading">
-                <h1>Project<br>Managment</h1>   
+                Project<br>Managment   
             </div> 
             <p>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p> 
             <a id="TWF">Get Started</a>
@@ -232,7 +376,7 @@
     <div id="Hero-section">
         <div class="Element3">
             <div class="Heading">
-                <h1>Use as Extension</h1>   
+                Use as Extension   
             </div> 
             <p>Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes.
                 </p> 
@@ -244,10 +388,13 @@
  
 <div id="Price-Page">
       <div id="Pricing">
-    <div class="P-Heading">
-        <h1 class="Ph1">Choose Your Plan</h1>
-        <p>Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you.</p>
-    </div>
+        <div class="P-Title">
+            <div class="Heading">
+                Choose Your Plan  
+            </div>
+            <p>Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you.</p>
+        </div>
+    
 
 <div class="Price-list">
     <div class="block">
@@ -303,6 +450,120 @@
 </div>
 </div>
     
+<div id="Sponsors">
+  <div class="S-Heading">Our sponsors</div>
+  <div id="img-blocks">
+    <div class="images-logo"><img src="C:\Users\siddh\OneDrive\Desktop\Project1\Images\Group.png" alt="img"></div>
+    <div class="images-logo"></div>
+    <div class="images-logo"></div>
+    <div class="images-logo"></div>
+   </div>
+</div>
 
+<div id="Tetinomial">
+    <div class="Heading">
+        What Our Client Says
+    </div>
+    <div class="Content">
+        <div class="box">
+            <div class="T-block">
+                <div class="T-box"></div>
+                <div class="T-box"></div>
+             </div>
+             
+            <div class="comment">
+                Whitepate is designed as a collaboration tool for businesses that is a full project management solution.
+            </div>
+            <p>____________________________________</p>
+            <div class="Name-box">
+                <div class="Profile-img"></div>
+                <div>
+                    <h1>Oberon Shaw, MCH</h1>
+                    <p>Head of Talent Acquisition, North America</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+             <div class="T-block">
+                <div class="T-box"></div>
+                <div class="T-box"></div>
+             </div>
+             
+            <div class="comment">
+                Whitepate is designed as a collaboration tool for businesses that is a full project management solution.
+            </div>
+            <p>____________________________________</p>
+            <div class="Name-box">
+                <div class="Profile-img"></div>
+                <div>
+                    <h1>Oberon Shaw, MCH</h1>
+                    <p>Head of Talent Acquisition, North America</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="T-block">
+                <div class="T-box"></div>
+                <div class="T-box"></div>
+             </div>
+             
+            <div class="comment">
+                Whitepate is designed as a collaboration tool for businesses that is a full project management solution.
+            </div>
+            <p>____________________________________</p>
+            <div class="Name-box">
+                <div class="Profile-img"></div>
+                <div>
+                    <h1>Oberon Shaw, MCH</h1>
+                    <p>Head of Talent Acquisition, North America</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Footer">
+    <div id="Footer-Content">
+        <div class="Footer-box">
+            <div class="logo"> 
+                <img src="C:\Users\siddh\OneDrive\Desktop\Project1\Images\whitepace.png" alt="Logo">      
+            </div>
+            <p>whitepace was created for the new ways we live and work. We make a better workspace around the world</p>
+        </div>
+         <div class="Footer-box">
+            <h3>Product</h3>
+            <ul>
+                <li>overview</li>
+                <li>Pricing</li>
+                <li>customer stories</li>
+                </ul>       
+         </div>
+         <div class="Footer-box">
+             <h3>Resources</h3>
+            <ul>
+                <li>Blog</li>
+                <li>Guides & tutorials</li>
+                <li>Help center</li>
+                </ul>
+         </div>
+         <div class="Footer-box">
+            <h3>Company</h3>
+            <ul>
+                <li>About us</li>
+                <li>Careers</li>
+                <li>Media kit</li>
+                </ul>
+         </div>
+         <div class="Footer-box">
+            <h2>Try It Today</h2>
+            <p>
+                Get started for free.
+                Add your whole team as your needs grow.
+            </p>
+            <a id="TWF">Start Today</a>
+         </div>
+
+    </div>
+</div>
 </body>
 </html>
